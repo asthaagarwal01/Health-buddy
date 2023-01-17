@@ -11,3 +11,5 @@ Features :
 -It finds the best doctors in your city.
 
 Languages used : HTML , CSS , JavaScript
+
+![Health buddy](https://user-images.githubusercontent.com/86525559/212834535-ec472061-0fbe-4b20-bf8c-a4c5f3704194.png)

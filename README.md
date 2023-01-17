@@ -8,9 +8,9 @@ Don’t wait until it’s too late - start tracking temperatures and finding doc
 
 Features :
 
--It helps to find the temperature of the city entered.
+- It helps to find the temperature of the city entered.
 
--It finds the best doctors in your city.
+- It finds the best doctors in your city.
 
 Languages used : HTML , CSS , JavaScript
 

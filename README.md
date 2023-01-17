@@ -7,7 +7,9 @@ Living in a city with unpredictable weather can be difficult to adjust to. That�
 Don’t wait until it’s too late - start tracking temperatures and finding doctors now!
 
 Features :
+
 -It helps to find the temperature of the city entered.
+
 -It finds the best doctors in your city.
 
 Languages used : HTML , CSS , JavaScript

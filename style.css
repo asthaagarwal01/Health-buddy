@@ -1,0 +1,261 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(107.9deg, #384867 0.33%, #061024 99.18%);
+}
+
+.logo
+{
+    padding: 50px;
+    display: flex;
+    margin-top: -20px;
+}
+
+.logo img
+{
+    height: 55px;
+    width: 90px;
+    padding: 3px;
+}
+
+.logo p
+{
+    padding: 10px;
+    font-size: 23px;
+    font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+color: #01EBDA;
+padding-top: 20px;
+}
+
+.heading
+{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin-top: -30px;
+}
+
+.heading p
+{
+    font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+color: white;
+font-size: 50px;
+}
+
+.heading p span
+{
+    color: #01EBDA;
+    
+}
+
+.heading img
+{
+    padding-left: 10px;
+}
+
+.sub
+{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    width: 410px;
+    height: 60px;
+    border: 1px solid white;
+    margin-left: 520px;
+    border-radius: 15px;
+    background: rgba(217, 217, 217, 0.2);
+}
+
+.sub p
+{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+    font-size: 18px;
+    padding: 7px 2px;
+}
+
+.content
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 170px;
+    margin-top: -35px;
+}
+
+.search
+{
+    padding: 20px;
+}
+
+.search::after
+{
+    content: "";
+    width: 160px;
+    height: 1.5px;
+    background-color: #d6d6d6;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: -160px;
+}
+
+.search input
+{
+    background: transparent;
+    border: none;
+    margin-left: 40px;
+    padding-right: -60px;
+    width: 120px;
+    margin-top: 2px;
+    padding-top: 2px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    color:#01EBDA;
+    font-size: 18px;
+    outline: none;
+}
+
+.search button
+{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.search img
+{
+    width: 30px;
+    height: 25px;
+    margin-top: 3px;
+    margin-left: -3px;
+}
+
+.search input::placeholder
+{
+    color: rgba(1, 235, 218, 0.7);
+    font-size: 18px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    margin-top: 2px;
+}
+.card
+{
+    height: 330px;
+    width: 300px;
+    background: rgba(217, 217, 217, 0.2);
+    box-shadow: -9px -9px 29px rgba(0, 0, 0, 0.15), 9px 9px 29px rgba(0, 0, 0, 0.15);
+    padding: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+
+}
+
+.card #city
+{
+    font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+color: white;
+font-size: 30px;
+}
+
+.card #temp , .card #degree
+{
+    font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+color: white;
+font-size: 25px;
+margin-top: -20px;
+}
+
+.card #type
+{
+    font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+color: white;
+font-size: 22px;
+margin-top: 20px;
+}
+
+
+.card img
+{
+    width: 200px;
+    height: 170px;
+}
+
+.head
+{
+    display: flex;
+    margin-top: 35px;
+}
+
+.head img
+{
+    width: 100px;
+    height: 100px;
+}
+
+.head p
+{
+    font-size: 27px;
+    color: white;
+    font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+margin-top: 30px;
+}
+
+.right ul li .item
+{
+    display: flex;
+    padding: 20px;
+    margin-left: 15px;
+}
+
+ul li
+{
+    list-style: none;
+}
+
+.right ul li .item p
+{
+    font-family: 'Inter';
+font-style: italic;
+font-weight: 500;
+font-size: 24px;
+color: #01EBDA;
+padding: 10px;
+}
+
+.doc
+{
+   display: none;
+   position: absolute;
+}
+
+.show
+{
+    display: block;
+}
